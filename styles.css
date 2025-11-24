@@ -110,6 +110,8 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    border-color: #E2E8F0;
+    box-shadow: 5px;
 }
 
 .card {
