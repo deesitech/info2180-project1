@@ -235,3 +235,69 @@ nav a:hover {
 .article-body a:hover {
     text-decoration: underline;
 }
+
+/* Newsletter Section */
+
+.newsletter {
+    padding: 60px 0;
+    background-color: rgb(28, 151, 28);
+    text-align: center;
+}
+
+.newsletter h3 {
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.newsletter p {
+    color: white;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.newsletter .btn {
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    flex-shrink: 0;
+    background-color: blue;
+}
+
+.message {
+    margin-top: 15px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
