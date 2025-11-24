@@ -47,3 +47,90 @@ nav a {
 nav a:hover {
     color: #007bff;
 }
+
+/* Hero Overview Section */
+.overview-hero {
+    padding: 60px 0;
+    background-color: #f8f9fab2;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.overview-hero-image {
+    flex: 1;
+    min-height: 100px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-hero-image img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+}
+.overview-hero-text {
+    flex: 1;
+}
+
+.overview-hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.overview-hero-text p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+    /*Learn About Section*/
+.learn-about {
+    padding: 60px 0;
+}
+
+.learn-about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #06962a;
+    font-size: 2rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #0aa112;
+}
+
+.card-body p {
+    color: #666;
+    margin: 0;
+}
