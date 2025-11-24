@@ -1,7 +1,7 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Get the form element
-    const form = document.querySelector('.newsletter form');
+    const form = document.querySelector('.btn').closest('form');
     
     // Add submit event listener
     form.addEventListener('submit', function(event) {
