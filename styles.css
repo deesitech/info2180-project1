@@ -179,3 +179,59 @@ nav a:hover {
 .btn:hover {
     background-color: #0056b3;
 }
+
+/* Stories Section */
+.stories {
+    padding: 60px 0;
+}
+
+.stories h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 2rem;
+}
+
+.stories article {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.stories article:last-child {
+    margin-bottom: 0;
+}
+
+.stories article img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.article-body {
+    flex: 1;
+}
+
+.article-body h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.article-body p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.article-body a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
