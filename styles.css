@@ -134,7 +134,8 @@ nav a:hover {
 .card-body h3 {
     margin-top: 0;
     margin-bottom: 15px;
-    color: #0aa112;
+    color: #48BB78;
+    font-size: 21px;
 }
 
 .card-body p {
